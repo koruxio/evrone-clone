@@ -198,5 +198,55 @@ body {
 }
 
 .input-field {
-  line-height: 40px;
+  width: 100%;
+  line-height: 60px;
+}
+
+.input-field input {
+  background-color: black;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  height: 2rem;
+  font-size: 15px;
+}
+
+.input-field button {
+  color: grey;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+}
+
+.address h4 {
+  font-weight: 1;
+  margin: 9%;
+  line-height: 1.5;
+}
+
+.address span {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin: 9%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media h4 {
+  font-weight: 1;
+  line-height: 2;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  margin: 9%;
+}
+
+.terms h4 {
+  padding-top: 7%;
+  font-weight: 1;
+  line-height: 2;
 }
